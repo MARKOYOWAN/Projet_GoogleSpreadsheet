@@ -43,7 +43,7 @@ def save_CSV(mon_tab)
   end
 end
 
-def perform 
+def final 
  mon_tab = get_townhall_urls
  save_JSON(mon_tab)
  save_CSV(mon_tab)
